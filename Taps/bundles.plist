@@ -833,6 +833,44 @@
 			<key>uuid</key>
 			<string>65E76021-BD22-4892-93F6-BB58E2C3138E</string>
 		</dict>
+		<dict>
+			<key>category</key>
+			<string>Languages</string>
+			<key>description</key>
+			<string>YAML language support. A fork of the official bundle whose only change is a key: Sort Keys Alphabetically moves off F5, which this TextMate spends on Jump to Next Diagnostic, onto F6, where the sort commands live.</string>
+			<key>grammars</key>
+			<array>
+				<dict>
+					<key>fileTypes</key>
+					<array>
+						<string>yaml</string>
+						<string>yml</string>
+						<string>rviz</string>
+						<string>reek</string>
+						<string>clang-format</string>
+						<string>yaml-tmlanguage</string>
+						<string>syntax</string>
+						<string>sublime-syntax</string>
+					</array>
+					<key>firstLineMatch</key>
+					<string>^%YAML( ?1.\d+)?</string>
+					<key>name</key>
+					<string>YAML</string>
+					<key>scope</key>
+					<string>source.yaml</string>
+					<key>uuid</key>
+					<string>686AD6AE-33F3-4493-9512-9E9FC1D5417F</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>YAML</string>
+			<key>ref</key>
+			<string>master</string>
+			<key>url</key>
+			<string>https://github.com/robios/yaml.tmbundle</string>
+			<key>uuid</key>
+			<string>AC506ECC-4F1F-11DA-AFF2-000A95AF0064</string>
+		</dict>
 	</array>
 	<key>name</key>
 	<string>robios bundles</string>

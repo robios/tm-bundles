@@ -36,6 +36,7 @@ and press Return. The bundles below appear in the list above, ready to install.
 | TextMate | [robios/textmate.tmbundle](https://github.com/robios/textmate.tmbundle) | A fork of the official TextMate bundle: syntax-highlighted HTML and RTF export on current Ruby, and the dead pastie.org paste command removed. Keeps the official bundle's UUID, so installing it replaces that bundle. |
 | VHDL | [robios/vhdl.tmbundle](https://github.com/robios/vhdl.tmbundle) | A fork of the official VHDL bundle: one-line symbols for processes, functions and procedures, declaration lookup that ignores optional keywords, and a Tidy command that leaves Emacs backup files alone. Keeps the official bundle's UUID, so installing it replaces that bundle. |
 | Xcode 26 Theme | [robios/xcode-26-theme.tmbundle](https://github.com/robios/xcode-26-theme.tmbundle) | Xcode 26 Dark and Light editor themes. Closest with SF Mono Medium, 12 pt. |
+| YAML | [robios/yaml.tmbundle](https://github.com/robios/yaml.tmbundle) | A fork of the official YAML bundle differing in one key: Sort Keys Alphabetically sits on F6, next to the other sort commands, instead of on F5, which this TextMate uses to jump to the next diagnostic. Keeps the official bundle's UUID, so installing it replaces that bundle. |
 
 ## Adding a bundle to the catalogue
 

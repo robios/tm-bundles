@@ -748,6 +748,45 @@
 		</dict>
 		<dict>
 			<key>category</key>
+			<string>Languages</string>
+			<key>description</key>
+			<string>Shell script support. A fork of the official bundle whose Open Terminal opens TextMate's own terminal, plus a new Run Script in Terminal that gives scripts a real tty.</string>
+			<key>grammars</key>
+			<array>
+				<dict>
+					<key>fileTypes</key>
+					<array>
+						<string>sh</string>
+						<string>bash</string>
+						<string>zsh</string>
+						<string>bashrc</string>
+						<string>bash_profile</string>
+						<string>bash_login</string>
+						<string>profile</string>
+						<string>bash_logout</string>
+						<string>.textmate_init</string>
+					</array>
+					<key>firstLineMatch</key>
+					<string>^#!.*\b(bash|zsh|sh|tcsh)|^#.*-\*-.*\bshell-script\b.*-\*-</string>
+					<key>name</key>
+					<string>Shell Script (Bash)</string>
+					<key>scope</key>
+					<string>source.shell</string>
+					<key>uuid</key>
+					<string>DDEEA3ED-6B1C-11D9-8B10-000D93589AF6</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Shell Script</string>
+			<key>ref</key>
+			<string>master</string>
+			<key>url</key>
+			<string>https://github.com/robios/shellscript.tmbundle</string>
+			<key>uuid</key>
+			<string>4694B05E-6227-11D9-BFB1-000D93589AF6</string>
+		</dict>
+		<dict>
+			<key>category</key>
 			<string>Other</string>
 			<key>description</key>
 			<string>Commands for TextMate itself: syntax-highlighted HTML and RTF export. A fork of the official bundle that runs on current Ruby and drops the dead pastie.org paste command.</string>

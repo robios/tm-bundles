@@ -378,6 +378,40 @@
 		</dict>
 		<dict>
 			<key>category</key>
+			<string>Languages</string>
+			<key>description</key>
+			<string>Markdown language support. A fork of the official bundle carrying the GFM injection grammars from github-markdown.tmbundle, org-mode-like editing for pipe tables, and conversion to and from HTML, TSV and CSV. Every command runs on the Ruby macOS ships, and Show Preview is dropped in favour of TextMate 2.5's own preview pane. Keeps the official bundle's UUID, so installing it replaces that bundle.</string>
+			<key>grammars</key>
+			<array>
+				<dict>
+					<key>fileTypes</key>
+					<array>
+						<string>md</string>
+						<string>mdown</string>
+						<string>markdown</string>
+						<string>markdn</string>
+					</array>
+					<key>firstLineMatch</key>
+					<string>^# \[Think different\]\[\]</string>
+					<key>name</key>
+					<string>Markdown</string>
+					<key>scope</key>
+					<string>text.html.markdown</string>
+					<key>uuid</key>
+					<string>0A1D9874-B448-11D9-BD50-000D93B6E43C</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Markdown</string>
+			<key>ref</key>
+			<string>master</string>
+			<key>url</key>
+			<string>https://github.com/robios/markdown.tmbundle</string>
+			<key>uuid</key>
+			<string>D99E8C0C-792F-11D9-A212-000D93B3A10E</string>
+		</dict>
+		<dict>
+			<key>category</key>
 			<string>Other</string>
 			<key>description</key>
 			<string>Highlights git conflict markers in any file via an injection grammar. Pure grammar, no runtime code.</string>
